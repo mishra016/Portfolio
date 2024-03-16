@@ -14,7 +14,7 @@ export const Banner = () => {
     const toRotate = ["Web Developer", "Software Developer", "Technical Writer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(100); //speed of the next letter when first one is typed
-    const period = 1000; //transition betwee each words
+    const period = 200; //transition between each words
 
     useEffect(() => {
         let ticker = setInterval(() =>{
@@ -41,7 +41,7 @@ export const Banner = () => {
         }else if(isDeleting && updatedText === ''){
             setIsDeleting(false);
             setLoopNum(loopNum+1);
-            setDelta(500);
+            setDelta(200);
         }
     }
 

@@ -1,3 +1,4 @@
+
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -18,9 +19,12 @@ import docker from "../assets/img/skills/docker.svg";
 import figma from "../assets/img/skills/figma.svg";
 import gcp from "../assets/img/skills/gcp.svg";
 import csharp from "../assets/img/skills/csharp.svg";
+import next from "../assets/img/skills/next.svg"
 
 
 export const Skills = () =>{
+
+
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -40,6 +44,7 @@ export const Skills = () =>{
           items: 1
         }
       };
+
 
       return(
         <section className = "skill" id="skills">
@@ -93,6 +98,10 @@ export const Skills = () =>{
                             <div className="item">
                                 <img src={node} alt="Img" />
                                 <div className="text">Node.js</div>
+                            </div>
+                            <div className="item">
+                                <img src={next} alt="img" />
+                                <div className="text">Next.js</div>
                             </div>
                             <div className="item">
                                 <img src={python} alt="img" />
