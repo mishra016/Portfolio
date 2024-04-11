@@ -13,29 +13,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - CSS animations library: Animate.css
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+## Installation
+1. Clone this repository: `git@github.com:mishra016/Portfolio.git` 
+2. Navigate to the project directory: `cd Portfolio`
+3. Run `npm install` to install all the project required dependencies
+4. Run `npm start` to start the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
+5. Run `npm test` to launch the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [create an issue](https://github.com/mishra016/Portfolio/issues) or [submit a pull request](https://github.com/mishra016/Portfolio/pulls).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute this code for personal or commercial projects.
 
 
 
