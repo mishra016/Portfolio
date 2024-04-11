@@ -40,7 +40,7 @@ export const NavBar = () => {
             <Nav.Link href="#about" className={activeLink === "about" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link>
-            <Nav.Link href="https://docs.google.com/document/d/1D3YeIgnmBBhwNN0Nc5MWjq7gXVZQscIcBo0EwaeLRnM/edit?usp=sharing" className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} 
+            <Nav.Link href="https://docs.google.com/document/d/1UXXHQynWNeuYBFvu5B-3kNAg38ArLg9PLWC3UuJUX7Y/edit?usp=sharing" className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} 
             onClick={() => onUpdateActiveLink("resume")}>Resume</Nav.Link>
             
           </Nav>
